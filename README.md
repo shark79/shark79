@@ -2,24 +2,24 @@
 
 <p align="center">
   <b>AI Engineer · GenAI · LLMs · RAG · Autonomous Agents</b><br/>
-  <i>Building intelligent systems that solve real problems.</i>
+  <i>AI Engineer building production agent systems in healthcare. Evaluation, reliability, and guardrails that hold.</i>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sjam"><img src="https://img.shields.io/badge/LinkedIn-sjam-blue?logo=linkedin&logoColor=white" /></a>
   <a href="mailto:shashankjamkhandi@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-red?logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/shark79"><img src="https://img.shields.io/badge/GitHub-shark79-black?logo=github" /></a>
+  <a href="https://www.npmjs.com/package/@sharkbuilds/job-finder"><img src="https://img.shields.io/npm/v/@sharkbuilds/job-finder?label=npm%20%40sharkbuilds%2Fjob-finder&logo=npm" /></a>
 </p>
 
 ---
 
 ## 🚀 About Me
 
-I'm an AI Engineer passionate about building autonomous agents and GenAI applications that are both powerful and responsible. I recently graduated with a **Master's in Information Technology (GPA: 4.0)** from Arizona State University and currently work as a **Junior AI Developer at CMCI**, building next-generation healthcare AI systems.
+I'm an AI Engineer building production GenAI in healthcare: multi-agent orchestration, RAG retrieval, and MCP tooling on AWS Bedrock and Claude. I work as an **AI Developer at DocAide.ai** and hold a **Master's in Information Technology (GPA 4.0)** from Arizona State University.
 
-- 🔭 **Currently:** Building healthcare AI assistants with LangChain, OpenAI, and PGVector at CMCI
-- 🧠 **Interests:** Autonomous agents, RAG pipelines, semantic search, ethical AI
-- 🌱 **Always learning:** Multi-agent systems, LLM fine-tuning, LLM evaluation
+- 🔭 **Currently:** Clinical AI features on Claude (AWS Bedrock) + OpenAI, RAG over PGVector at DocAide.ai
+- 🧠 **Interests:** Multi-agent systems, LLM evaluation, guardrails, durable workflows
 - 📍 **Based in:** Arizona, USA
 
 ---
@@ -30,10 +30,10 @@ I'm an AI Engineer passionate about building autonomous agents and GenAI applica
 
 ![LangChain](https://img.shields.io/badge/LangChain-000000?logo=chainlink&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?logo=anthropic&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?logo=huggingface&logoColor=black)
 
 **Languages & Frameworks**
 
@@ -46,9 +46,7 @@ I'm an AI Engineer passionate about building autonomous agents and GenAI applica
 **Cloud & Tools**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?logo=google-cloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
 ---
@@ -57,22 +55,24 @@ I'm an AI Engineer passionate about building autonomous agents and GenAI applica
 
 | Project | Description | Stack |
 |---|---|---|
-| [🛡️ StyloGuard](https://github.com/shark79/StyloGuard) | AI-powered stylometric authorship verification for academic integrity | Python · Streamlit · PyTorch |
-| [⚡ Energy Simulator](https://github.com/shark79/Simulator) | Interactive tool to explore AI data center energy cost & emissions | Python · Streamlit · Pandas |
-| [🤖 Gen-AI Projects](https://github.com/shark79/Gen-AI-projects) | NLP & GenAI experiments with OpenAI, Ollama, AWS Bedrock | Python · Jupyter · LLMs |
+| [📊 Harness Eval for RAG Chatbot](https://github.com/shark79/harness-eval-for-rag-chatbot) | Documentation-grounded RAG chatbot with independent harness evals and a bounded Ship/Hold review | Python · RAG · LLM evaluation |
+| [🛒 Agentic Commerce (UCP)](https://github.com/shark79/agentic-commerce-ucp) | AI shopping agent: Google UCP checkout + Stripe Shared Payment Tokens | TypeScript · Node · Next.js · Stripe |
+| [🔎 Agentic Workflow (Claude)](https://github.com/shark79/agentic-workflow-claude) | Four adversarial research agents; citation verification and weight dilution enforced in code | Python · Claude |
+| [🤝 MultiAgent Organization](https://github.com/shark79/MultiAgent-Organization) | Five-agent dev team across five open-weight models on OpenCode + OpenRouter | OpenCode · OpenRouter |
+| [💼 Job Finder](https://github.com/shark79/job-finder) | MCP server ([npm](https://www.npmjs.com/package/@sharkbuilds/job-finder)) matching DOL H1B filings to live postings | JavaScript · MCP |
+| [🛡️ StyloGuard](https://github.com/shark79/StyloGuard) | Stylometric authorship verification for academic integrity | Python · Streamlit · PyTorch |
 
 ---
 
 ## 💼 Experience Highlights
 
-**Junior AI Developer @ CMCI** *(June 2025 – Present)*
-- Built healthcare AI assistant with LangChain + OpenAI
-- Optimized PGVector semantic search → **40% faster retrieval**, **25% better accuracy**
-- Deployed on AWS ECS/S3 → **30% latency reduction**
-- Prompt caching implementation → **80% reduction in redundant API calls**
+**AI Developer @ DocAide.ai** *(June 2025 – Present)*
+- Integrated Claude via AWS Bedrock alongside OpenAI across clinical AI features
+- Owned the core RAG pipeline (OpenAI embeddings + PGVector); root-caused Critical clinical-accuracy defects
+- Cut clinical note generation latency by **60%** (40s → 15s) by parallelizing post-transcription steps
 
-**Principled Innovation Assistant @ ASU** *(Dec 2024 – May 2025)*
-- Built Streamlit app on sustainable AI & data center energy impact
+**Sustainable AI Innovation Assistant @ ASU** *(Dec 2024 – May 2025)*
+- Built and deployed a Streamlit simulator modeling energy, cost, and CO₂ tradeoffs for AI data centers
 
 ---
 
